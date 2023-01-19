@@ -1,8 +1,13 @@
 import { ethers } from "ethers";
 import { Info } from ".";
 
-let tempProvider = new ethers.providers.Web3Provider(window.ethereum);
-let tempSigner = tempProvider.getSigner();
+let tempProvider;
+let tempSigner;
+if (window.ethereum) {
+  tempProvider = new ethers.providers.Web3Provider(window.ethereum);
+  tempSigner = tempProvider.getSigner();
+}
+
 let NFTcontract = new ethers.Contract(Info.address, Info.ABI, tempSigner);
 let fundcontract = new ethers.Contract(
   Info.Fundaddress,
