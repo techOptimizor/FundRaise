@@ -36,8 +36,8 @@ const Home = () => {
         <div className=" flex flex-wrap flex-col ">
           <h1 className="font-serif text-[#e5f4fb] py-1 my-2">Mini Dapp</h1>
           <p className="font-semibold mb-6">
-            A mini fund contirbution dapp to help the peoples goals and those in
-            need of help
+            A mini fund contirbution dapp to help people's goals and those in
+            need of help or charity organisation
           </p>
 
           <div className="bg-[#1e133e] flex flex-col h-[200px] rounded-2xl px-3  ">

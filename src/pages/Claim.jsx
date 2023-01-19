@@ -51,8 +51,8 @@ const Claim = () => {
         <div className=" flex flex-wrap flex-col ">
           <h1 className="font-serif text-[#e5f4fb] py-1 my-2">Mini Dapp</h1>
           <p className="font-semibold">
-            A mini fund contirbution dapp to help the peoples goals and those in
-            need of help
+            A mini fund contirbution dapp to help peoples goal's and those in
+            need of help or charity organisation.
           </p>
           <div className=" flex px-2 py-3 bg-[#1e133e] justify-center items-center w-[400px] rounded-3xl flex-col">
             <p className="text-[#7048e8]-500 font-extrabold">YOUR NFT</p>
