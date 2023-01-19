@@ -4,9 +4,7 @@ import { useState } from "react";
 import { Deposit } from "../constants";
 
 const Input = () => {
-  const metadata = [
-    "https://gateway.pinata.cloud/ipfs/QmUoqRwd323BczuyyHcFdnzab41m887Evx6PDRGEdiu5yy ",
-  ];
+  const metadata = ["QmUoqRwd323BczuyyHcFdnzab41m887Evx6PDRGEdiu5yy "];
   const [tony, setTony] = useState("");
   const [tony2, setTony2] = useState("");
   const [error, seterror] = useState("");
