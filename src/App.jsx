@@ -8,6 +8,8 @@ import { images } from "./assets";
 import { useState, useEffect } from "react";
 import { create } from "./constants";
 import { useAccount } from "wagmi";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
+
 
 //import { getDefaultWallets, RainbowKitProvider } from "@rainbow-me/rainbowkit";
 // import { configureChains, createClient, WagmiConfig } from "wagmi";
@@ -65,6 +67,8 @@ const App = () => {
               onClick={() => setToggle(false)}
             />
             <h1 className="text-[#5f3dc4]">B</h1>
+
+            <ConnectButton/>
 
             <div className="flex flex-col">
               <Link to="/">
